@@ -12,7 +12,7 @@ fun createMockMessage(): List<Message> {
     val result: ArrayList<Message> = arrayListOf()
 
     for (i in 0..10) {
-        result.add(Message("냐벱$i", "다람쥐 집사 \n ${i + 9000}"))
+        result.add(Message("냐벱$i", "다람쥐 집사 1\n ${i + 9000}"))
     }
     return result
 }
